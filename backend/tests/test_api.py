@@ -86,3 +86,10 @@ def test_unknown_group_is_404():
         "question": "Analyze missing group", "group_ids": ["UNKNOWN"]
     })
     assert response.status_code == 404
+
+def test_sources_registry_exposes_traceable_publication():
+    response = client.get('/api/sources')
+    assert response.status_code == 200
+    sources = {item['source_id']: item for item in response.json()['sources']}
+    assert sources['saffire-1-3']['pdf_url'].startswith('https://ntrs.nasa.gov/')
+    assert sources['luci']['url'].startswith('https://ntrs.nasa.gov/')

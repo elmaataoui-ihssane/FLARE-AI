@@ -1,8 +1,9 @@
 """FLARE AI backend — dataset-backed analysis with source-aware reporting."""
 import os
+import json
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from app.adapters.member1 import read_groups, research_agent, data_agent
+from app.adapters.member1 import read_groups, research_agent, data_agent, MICROFIRE_ROOT
 from app.catalog import INVESTIGATIONS
 from app.models import CompareRequest,ResearchRequest,ResearchResponse,DatasetValidationRequest
 from app.agents.openai_research import configured as openai_configured, model_name, synthesize_research
@@ -30,6 +31,15 @@ def health():
 @app.get('/api/nasa-investigations')
 def investigations():
     return {'catalog':INVESTIGATIONS,'note':'NASA investigation metadata and third-party references provide context only; they are not measurement evidence.'}
+
+@app.get('/api/sources')
+def sources():
+    """Expose source registry fields used to trace dataset rows to documents."""
+    path = MICROFIRE_ROOT / 'source_manifest.json'
+    records = json.loads(path.read_text(encoding='utf-8')) if path.exists() else []
+    fields = ('source_id', 'title', 'url', 'pdf_url', 'document_type', 'published')
+    return {'sources': [{key: record.get(key) for key in fields} for record in records],
+            'note': 'Source links and page numbers are provenance leads from a third-party extraction, not independent verification.'}
 
 @app.get('/api/datasets')
 def datasets(q: str | None = None):

@@ -63,3 +63,7 @@ See [docs/INTEGRATION_CONTRACT.md](docs/INTEGRATION_CONTRACT.md). Both the exper
 ## Next priorities beyond this MVP
 
 Independent verification of extracted measurements; full document retrieval and citation-grounded RAG; domain review of scientific interpretations; access controls and production deployment.
+
+## Frontend (Member 3)
+
+The Next.js research workspace is in [`frontend/`](frontend/README.md). Start the backend first, then run `npm install` and `npm run dev` in `frontend/`; open http://localhost:3000. See the frontend README for API configuration and current integration limitations.
