@@ -1,32 +1,43 @@
-# Interface between Member 1, Member 2 and Member 3
+# Backend data and API contract
 
-## Member 1 -> Member 2
+## Dataset-backed experiment workflow
 
-- Provide a JSON document of the form `{"groups": [ExperimentGroup, ...]}`.
-- Each `ExperimentGroup` has `group_id`, `experiment_family`, `title`, `source_kind`, `conditions`, and `trials`.
-- Each `Trial` has `trial_id`, optional `extinction_time_s`, and optionally `measurements` (metric -> {value, unit}).
-- All values claimed to be NASA must have an **actual source for the measurements**, not just a page about the experiment (`data_source_url`).
-- These are provisional interface names. Member 1 should not be forced to adapt their real data blindly; confirm and version before merger.
-- Numeric variables must have explicit units. The analysis rejects mixed units rather than silently converting.
-- To test shape: POST `/api/validate-dataset`. This validates *schema*, not NASA provenance or scientific appropriateness.
-- Once reviewed, set `FLARE_DATA_FILE` to the local JSON path and restart the server; synthetic demo remains the default.
+The numerical workflow reads cleaned CSVs in the repository's `data/experiments/` folder. It does not read a synthetic demo JSON file. Original records remain in `data/raw/microfire_atlas/`.
 
-## Member 2 -> Member 3
+| Group ID | Dataset | Rows | Numeric fields summarized |
+| --- | --- | ---: | --- |
+| `BASS2-TESTS` | BASS-II | 56 | Thickness, width, flow, oxygen, pressure |
+| `LUCI-RUNS` | LUCI | 2 | Oxygen, pressure, flame spread |
+| `SAFFIRE-RUNS` | SAFFIRE | 20 | Sample dimensions, flow, oxygen, pressure, burn duration, flame spread, heat release |
 
-- `GET /api/health` for state and whether any real data is loaded.
-- `GET /api/experiments` for groups (each has `source_kind`).
-- `GET /api/nasa-investigations` for NASA context ONLY.
-- `POST /api/research`: `{"question":"Analyze FLEX","group_ids":["FLEX-DEMO-A"]}`.
-- `POST /api/compare`: `{"group_ids":["FLEX-DEMO-A","FLEX-DEMO-B"]}`.
-- OpenAPI docs: `/docs` and `/openapi.json`.
-- Response fields: `analyses`, `comparison`, `report`, `workflow_trace`, `disclaimer`.
-- `analyses[].measurements` lists per-metric summaries (mean, median, sample SD, min/max, n_missing, unit, status).
-- `CORS_ALLOWED_ORIGINS` accepts a comma-separated set of approved frontend origins (default: localhost:3000 and 127.0.0.1:3000).
+Numeric units come from the source column names. Missing values are counted. Nonnumeric cells such as pressure ranges remain in each trial's metadata and are excluded from numeric summaries. Every row's original columns, outcomes, and source/page references are kept in `trial.metadata` and returned by `GET /api/experiments`.
 
-## Limitations / required follow-up
+The files came through the third-party MicroFire Atlas. They are labeled `third_party`, not NASA-verified. NASA source IDs and page references are provenance leads. Group-level summaries can include varying conditions; they are descriptive and do not establish causal effects or safety rankings. `/api/compare` blocks mismatched families and does not rank datasets without extinction-time measurements.
 
-- Research Agent and Data Agent are **mock adapters**; Member 1's actual agents are not integrated yet.
-- The report agent is evidence-aware **template generation**, not an LLM.
-- No production RAG, vector database, automatic NASA harvesting, certified fire-safety model or causal ranking.
-- Ranking is descriptive and restricted to matched recorded control conditions.
-- Test with actual NASA experimental datasets and subject-matter review before presenting scientific conclusions.
+## Routes
+
+- `GET /api/health` — loaded dataset groups, workflow engine and OpenAI configuration state.
+- `GET /api/experiments` — parsed dataset groups with all per-row source metadata.
+- `GET /api/nasa-investigations` — Member 1 NASA PSI catalog; context only.
+- `GET /api/datasets` — raw and cleaned file inventory; `?q=saffire` filters filenames.
+- `GET /api/datasets/{filename}/profile` — CSV shape, missing-value counts, duplicates and descriptive statistics.
+- `GET /api/datasets/compare?dataset_a=...&dataset_b=...` — source column and row-count comparison.
+- `POST /api/research` — local evidence retrieval, CSV-backed metric summaries and (when configured) OpenAI synthesis.
+- `POST /api/compare` — conservative comparison of selected dataset groups; mismatched experimental families are blocked.
+- `POST /api/validate-dataset` — validates an `ExperimentGroup` payload's schema only.
+- `/docs` and `/openapi.json` — interactive Swagger UI and API schema.
+
+Example research body:
+
+```json
+{
+  "question": "Summarize the measured spread rates in SAFFIRE",
+  "group_ids": ["SAFFIRE-RUNS"]
+}
+```
+
+The response includes `research_context.answer`, `research_context.dataset_analyses`, per-metric `analyses`, source-aware `report`, and the workflow trace. The OpenAI answer is constrained to retrieved local evidence and numeric summaries; the local evidence remains available if the model call fails.
+
+## OpenAI setup
+
+Set `OPENAI_API_KEY` in `backend/.env`; optional `OPENAI_MODEL` defaults to `gpt-4.1-mini`. The app loads this file at startup. Do not commit `.env`; `.env.example` is a placeholder.

@@ -17,15 +17,19 @@ def write_report(groups: list[ExperimentGroup],analyses: list[AnalysisResult],co
                              f'n={measure.n_trials}, missing={measure.n_missing}')
             else:
                 lines.append(f'  {measure.metric}: {measure.status}: {measure.note}')
-        if group.source_kind=='nasa':
-            lines.append(f'  Source of measurements: {group.data_source_url}')
+        if group.source_kind in ('nasa', 'third_party'):
+            lines.append(f'  Dataset source ({group.source_kind}): {group.data_source_url}')
+            scope = group.provenance.get('summary_scope')
+            if scope:
+                lines.append(f'  Scope: {scope}')
+            lines.append('  Row metadata retains original source_id and page-reference fields, outcomes, and recorded conditions.')
         else:
-            lines.append('  DEMO ONLY: SYNTHETIC DATA — NO NASA MEASUREMENTS')
+            lines.append('  SYNTHETIC TEST DATA — NOT EXPERIMENTAL EVIDENCE')
     if comparison is not None:
         lines.append(f'Comparison: {comparison.reason}')
         if comparison.comparable:
             lines.append('Ranking: '+' < '.join(comparison.ranking_by_mean_extinction_time))
             lines.append(comparison.ranking_meaning)
-    lines.append('NASA investigation descriptions are contextual sources, not evidence for synthetic numbers.')
+    lines.append('MicroFire Atlas is a third-party source; its NASA citations are retained as provenance and require source-level interpretation.')
     lines.append('No operational spacecraft fire-safety advice or certified prediction.')
     return '\n'.join(lines)

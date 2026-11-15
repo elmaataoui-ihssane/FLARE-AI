@@ -1,0 +1,4274 @@
+{
+ "version": "microfire-evidence-graph-1",
+ "nodes": [
+  {
+   "id": "family:bass2",
+   "type": "Family",
+   "label": "BASS and BASS-II",
+   "data": {
+    "phase": "solid",
+    "fuel": "thin plastic films, fabric and rods",
+    "scale": "centimetres",
+    "platform": "glovebox flow duct aboard the ISS"
+   }
+  },
+  {
+   "id": "family:saffire",
+   "type": "Family",
+   "label": "Saffire",
+   "data": {
+    "phase": "solid",
+    "fuel": "fabric, silicone, Nomex and thick PMMA",
+    "scale": "5 cm to almost 1 m",
+    "platform": "flow unit inside an empty Cygnus cargo ship"
+   }
+  },
+  {
+   "id": "family:luci",
+   "type": "Family",
+   "label": "LUCI",
+   "data": {
+    "phase": "solid",
+    "fuel": "SIBAL fabric and a PMMA rod",
+    "scale": "centimetres",
+    "platform": "spinning New Shepard sounding rocket"
+   }
+  },
+  {
+   "id": "family:partial-g",
+   "type": "Family",
+   "label": "Martian-gravity drop tests",
+   "data": {
+    "phase": "solid",
+    "fuel": "spacecraft materials",
+    "scale": "centimetres",
+    "platform": "drop tower"
+   }
+  },
+  {
+   "id": "family:sofie",
+   "type": "Family",
+   "label": "SoFIE",
+   "data": {
+    "phase": "solid",
+    "fuel": "PMMA and engineering materials",
+    "scale": "centimetres",
+    "platform": "Combustion Integrated Rack aboard the ISS"
+   }
+  },
+  {
+   "id": "family:fm2",
+   "type": "Family",
+   "label": "FM² (planned)",
+   "data": {
+    "phase": "solid",
+    "fuel": "SIBAL fabric and PMMA rods",
+    "scale": "centimetres",
+    "platform": "robotic chamber on a lunar lander, not yet flown"
+   }
+  },
+  {
+   "id": "family:flex",
+   "type": "Family",
+   "label": "FLEX",
+   "data": {
+    "phase": "liquid",
+    "fuel": "methanol and heptane droplets (2 to 5 mm)",
+    "scale": "millimetres",
+    "platform": "Combustion Integrated Rack aboard the ISS"
+   }
+  },
+  {
+   "id": "family:acme",
+   "type": "Family",
+   "label": "ACME",
+   "data": {
+    "phase": "gas",
+    "fuel": "gaseous fuel jets",
+    "scale": "millimetres to centimetres",
+    "platform": "Combustion Integrated Rack aboard the ISS"
+   }
+  },
+  {
+   "id": "family:context",
+   "type": "Family",
+   "label": "Mission context",
+   "data": {
+    "phase": null,
+    "fuel": "not a fire experiment",
+    "scale": "",
+    "platform": ""
+   }
+  },
+  {
+   "id": "source:bass2-summary",
+   "type": "Source",
+   "label": "Burning and Suppression of Solids–II  (BASS-II) Summary Report",
+   "data": {
+    "ntrs": "20210011385",
+    "url": "https://ntrs.nasa.gov/citations/20210011385"
+   }
+  },
+  {
+   "id": "source:bass2-results",
+   "type": "Source",
+   "label": "Combustion of Solids in Microgravity: Results from the BASS-II Experiment",
+   "data": {
+    "ntrs": "20160000593",
+    "url": "https://ntrs.nasa.gov/citations/20160000593"
+   }
+  },
+  {
+   "id": "source:pmma-rods-concurrent",
+   "type": "Source",
+   "label": "Microgravity Flammability of PMMA Rods in Concurrent Flow",
+   "data": {
+    "ntrs": "20150008961",
+    "url": "https://ntrs.nasa.gov/citations/20150008961"
+   }
+  },
+  {
+   "id": "source:sibal-concurrent",
+   "type": "Source",
+   "label": "Concurrent Flame Growth, Spread and Extinction over Composite Fabric Samples in Low Speed Purely Forced Flow in Microgravity",
+   "data": {
+    "ntrs": "20150008962",
+    "url": "https://ntrs.nasa.gov/citations/20150008962"
+   }
+  },
+  {
+   "id": "source:bass-thickness",
+   "type": "Source",
+   "label": "Thickness and Fuel Preheating Effects on Material Flammability in Microgravity from the BASS Experiment",
+   "data": {
+    "ntrs": "20140011099",
+    "url": "https://ntrs.nasa.gov/citations/20140011099"
+   }
+  },
+  {
+   "id": "source:confinement",
+   "type": "Source",
+   "label": "Effects of Confinement on Flame Spread in Microgravity",
+   "data": {
+    "ntrs": "20205004657",
+    "url": "https://ntrs.nasa.gov/citations/20205004657"
+   }
+  },
+  {
+   "id": "source:partial-g",
+   "type": "Source",
+   "label": "Evaluating Material Flammability in Microgravity and Martian Gravity Compared to the NASA Standard Normal Gravity Test",
+   "data": {
+    "ntrs": "20130010991",
+    "url": "https://ntrs.nasa.gov/citations/20130010991"
+   }
+  },
+  {
+   "id": "source:luci",
+   "type": "Source",
+   "label": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+   "data": {
+    "ntrs": "20250010653",
+    "url": "https://ntrs.nasa.gov/citations/20250010653"
+   }
+  },
+  {
+   "id": "source:exploration-atmosphere",
+   "type": "Source",
+   "label": "Results of a 3-day Pilot Study to Validate Planetary Prebreathe Protocols Using a 56.5 kPa 34% O2, 66% N2 Saturation Cabin Atmosphere",
+   "data": {
+    "ntrs": "20220009546",
+    "url": "https://ntrs.nasa.gov/citations/20220009546"
+   }
+  },
+  {
+   "id": "source:ea-alt",
+   "type": "Source",
+   "label": "Nasa Exploration Atmosphere Tests 3 & 4: Development and Validation of Planetary Extravehicular Activity Prebreathe Protocols for Alternate Atmospheres and Suit Pressures",
+   "data": {
+    "ntrs": "20240013238",
+    "url": "https://ntrs.nasa.gov/citations/20240013238"
+   }
+  },
+  {
+   "id": "source:fm2-plan",
+   "type": "Source",
+   "label": "Flammability of Materials on the Moon",
+   "data": {
+    "ntrs": "20240008623",
+    "url": "https://ntrs.nasa.gov/citations/20240008623"
+   }
+  },
+  {
+   "id": "source:fm2-atmospheres",
+   "type": "Source",
+   "label": "Flammability of Materials on the Moon",
+   "data": {
+    "ntrs": "20240015307",
+    "url": "https://ntrs.nasa.gov/citations/20240015307"
+   }
+  },
+  {
+   "id": "source:ea-6",
+   "type": "Source",
+   "label": "NASA Exploration Atmosphere Test 6: Back to Back EVAs",
+   "data": {
+    "ntrs": "20260003261",
+    "url": "https://ntrs.nasa.gov/citations/20260003261"
+   }
+  },
+  {
+   "id": "source:saffire-1-3",
+   "type": "Source",
+   "label": "Results of Large-Scale Spacecraft Flammability Tests",
+   "data": {
+    "ntrs": "20170008805",
+    "url": "https://ntrs.nasa.gov/citations/20170008805"
+   }
+  },
+  {
+   "id": "source:saffire-4-5",
+   "type": "Source",
+   "label": "Fire Safety Implications of Preliminary Results from Saffire IV and V Experiments on Large Scale Spacecraft Fires",
+   "data": {
+    "ntrs": "20210017780",
+    "url": "https://ntrs.nasa.gov/citations/20210017780"
+   }
+  },
+  {
+   "id": "source:saffire-6",
+   "type": "Source",
+   "label": "Preliminary Results from the Saffire VI Experiment",
+   "data": {
+    "ntrs": "20240002981",
+    "url": "https://ntrs.nasa.gov/citations/20240002981"
+   }
+  },
+  {
+   "id": "source:flex",
+   "type": "Source",
+   "label": "Detailed Results from the Flame Extinguishment Experiment (FLEX) March 2009 to December 2011",
+   "data": {
+    "ntrs": "20150023456",
+    "url": "https://ntrs.nasa.gov/citations/20150023456"
+   }
+  },
+  {
+   "id": "source:sofie",
+   "type": "Source",
+   "label": "Solid Fuel Ignition and Extinction (SoFIE) Project on ISS",
+   "data": {
+    "ntrs": "20200000361",
+    "url": "https://ntrs.nasa.gov/citations/20200000361"
+   }
+  },
+  {
+   "id": "source:acme",
+   "type": "Source",
+   "label": "Advanced Combustion via Microgravity Experiments (ACME) on the International Space Station (ISS)",
+   "data": {
+    "ntrs": "20210015913",
+    "url": "https://ntrs.nasa.gov/citations/20210015913"
+   }
+  },
+  {
+   "id": "record:sibal-GMT45-T1",
+   "type": "Record",
+   "label": "BASS-II test GMT45-T1",
+   "data": {
+    "oxygen": 18.5,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT45-T1"
+   }
+  },
+  {
+   "id": "material:SIBAL fabric",
+   "type": "Material",
+   "label": "SIBAL fabric"
+  },
+  {
+   "id": "record:sibal-GMT45-T2",
+   "type": "Record",
+   "label": "BASS-II test GMT45-T2",
+   "data": {
+    "oxygen": 18.5,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT45-T2"
+   }
+  },
+  {
+   "id": "record:sibal-GMT45-T4",
+   "type": "Record",
+   "label": "BASS-II test GMT45-T4",
+   "data": {
+    "oxygen": 18.7,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "extinguished",
+    "href": "/experiments/sibal-GMT45-T4"
+   }
+  },
+  {
+   "id": "record:sibal-GMT45-T15",
+   "type": "Record",
+   "label": "BASS-II test GMT45-T15",
+   "data": {
+    "oxygen": 18.7,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "sustained",
+    "href": "/experiments/sibal-GMT45-T15"
+   }
+  },
+  {
+   "id": "record:sibal-GMT100-T5",
+   "type": "Record",
+   "label": "BASS-II test GMT100-T5",
+   "data": {
+    "oxygen": 18.8,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT100-T5"
+   }
+  },
+  {
+   "id": "record:sibal-GMT100-T6",
+   "type": "Record",
+   "label": "BASS-II test GMT100-T6",
+   "data": {
+    "oxygen": 18.8,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 4.5,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT100-T6"
+   }
+  },
+  {
+   "id": "record:sibal-GMT100-T13",
+   "type": "Record",
+   "label": "BASS-II test GMT100-T13",
+   "data": {
+    "oxygen": 17.5,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 4,
+    "outcome": "extinguished",
+    "href": "/experiments/sibal-GMT100-T13"
+   }
+  },
+  {
+   "id": "record:sibal-GMT100-T16",
+   "type": "Record",
+   "label": "BASS-II test GMT100-T16",
+   "data": {
+    "oxygen": 17.6,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 4,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT100-T16"
+   }
+  },
+  {
+   "id": "record:sibal-GMT175-T9",
+   "type": "Record",
+   "label": "BASS-II test GMT175-T9",
+   "data": {
+    "oxygen": 16.4,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "not_ignited",
+    "href": "/experiments/sibal-GMT175-T9"
+   }
+  },
+  {
+   "id": "record:sibal-GMT175-T10",
+   "type": "Record",
+   "label": "BASS-II test GMT175-T10",
+   "data": {
+    "oxygen": 16.4,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "not_ignited",
+    "href": "/experiments/sibal-GMT175-T10"
+   }
+  },
+  {
+   "id": "record:sibal-GMT175-T18",
+   "type": "Record",
+   "label": "BASS-II test GMT175-T18",
+   "data": {
+    "oxygen": 17.4,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "extinguished",
+    "href": "/experiments/sibal-GMT175-T18"
+   }
+  },
+  {
+   "id": "record:sibal-GMT178-T11",
+   "type": "Record",
+   "label": "BASS-II test GMT178-T11",
+   "data": {
+    "oxygen": 17.1,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 4,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT178-T11"
+   }
+  },
+  {
+   "id": "record:sibal-GMT178-T12",
+   "type": "Record",
+   "label": "BASS-II test GMT178-T12",
+   "data": {
+    "oxygen": 16.8,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "not_ignited",
+    "href": "/experiments/sibal-GMT178-T12"
+   }
+  },
+  {
+   "id": "record:sibal-GMT178-T14",
+   "type": "Record",
+   "label": "BASS-II test GMT178-T14",
+   "data": {
+    "oxygen": 16.9,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 4,
+    "outcome": "extinguished",
+    "href": "/experiments/sibal-GMT178-T14"
+   }
+  },
+  {
+   "id": "record:sibal-GMT178-T17",
+   "type": "Record",
+   "label": "BASS-II test GMT178-T17",
+   "data": {
+    "oxygen": 16.9,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 6,
+    "outcome": "sustained",
+    "href": "/experiments/sibal-GMT178-T17"
+   }
+  },
+  {
+   "id": "record:sibal-GMT190-T19",
+   "type": "Record",
+   "label": "BASS-II test GMT190-T19",
+   "data": {
+    "oxygen": 17.2,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 11,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT190-T19"
+   }
+  },
+  {
+   "id": "record:sibal-GMT190-T20",
+   "type": "Record",
+   "label": "BASS-II test GMT190-T20",
+   "data": {
+    "oxygen": 17.2,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 11,
+    "outcome": "extinguished",
+    "href": "/experiments/sibal-GMT190-T20"
+   }
+  },
+  {
+   "id": "record:sibal-GMT190-T21",
+   "type": "Record",
+   "label": "BASS-II test GMT190-T21",
+   "data": {
+    "oxygen": 17.2,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 11,
+    "outcome": "extinguished",
+    "href": "/experiments/sibal-GMT190-T21"
+   }
+  },
+  {
+   "id": "record:sibal-GMT190-T22",
+   "type": "Record",
+   "label": "BASS-II test GMT190-T22",
+   "data": {
+    "oxygen": 17.1,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10.5,
+    "outcome": "extinguished",
+    "href": "/experiments/sibal-GMT190-T22"
+   }
+  },
+  {
+   "id": "record:sibal-GMT190-T23",
+   "type": "Record",
+   "label": "BASS-II test GMT190-T23",
+   "data": {
+    "oxygen": 17.2,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "not_ignited",
+    "href": "/experiments/sibal-GMT190-T23"
+   }
+  },
+  {
+   "id": "record:sibal-GMT190-T24",
+   "type": "Record",
+   "label": "BASS-II test GMT190-T24",
+   "data": {
+    "oxygen": 18.2,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT190-T24"
+   }
+  },
+  {
+   "id": "record:sibal-GMT216-T25",
+   "type": "Record",
+   "label": "BASS-II test GMT216-T25",
+   "data": {
+    "oxygen": 20.8,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT216-T25"
+   }
+  },
+  {
+   "id": "record:sibal-GMT216-T26",
+   "type": "Record",
+   "label": "BASS-II test GMT216-T26",
+   "data": {
+    "oxygen": 20.8,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT216-T26"
+   }
+  },
+  {
+   "id": "record:sibal-GMT216-T27",
+   "type": "Record",
+   "label": "BASS-II test GMT216-T27",
+   "data": {
+    "oxygen": 20.7,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT216-T27"
+   }
+  },
+  {
+   "id": "record:sibal-GMT216-T28a",
+   "type": "Record",
+   "label": "BASS-II test GMT216-T28a",
+   "data": {
+    "oxygen": 20.7,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "not_ignited",
+    "href": "/experiments/sibal-GMT216-T28a"
+   }
+  },
+  {
+   "id": "record:sibal-GMT216-T28b",
+   "type": "Record",
+   "label": "BASS-II test GMT216-T28b",
+   "data": {
+    "oxygen": 20.7,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "not_ignited",
+    "href": "/experiments/sibal-GMT216-T28b"
+   }
+  },
+  {
+   "id": "record:sibal-GMT216-T29",
+   "type": "Record",
+   "label": "BASS-II test GMT216-T29",
+   "data": {
+    "oxygen": 20.7,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT216-T29"
+   }
+  },
+  {
+   "id": "record:sibal-GMT96-T8",
+   "type": "Record",
+   "label": "BASS test GMT96-T8",
+   "data": {
+    "oxygen": 21,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 5,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT96-T8"
+   }
+  },
+  {
+   "id": "record:sibal-GMT96-T7",
+   "type": "Record",
+   "label": "BASS test GMT96-T7",
+   "data": {
+    "oxygen": 21,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 10,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT96-T7"
+   }
+  },
+  {
+   "id": "record:sibal-GMT131-T10",
+   "type": "Record",
+   "label": "BASS test GMT131-T10",
+   "data": {
+    "oxygen": 21,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 11,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT131-T10"
+   }
+  },
+  {
+   "id": "record:sibal-GMT222-T11",
+   "type": "Record",
+   "label": "BASS test GMT222-T11",
+   "data": {
+    "oxygen": 21,
+    "pressureKpa": [
+     101.325,
+     101.325
+    ],
+    "flowCmS": 19,
+    "outcome": "unknown",
+    "href": "/experiments/sibal-GMT222-T11"
+   }
+  },
+  {
+   "id": "record:bass2-B1",
+   "type": "Record",
+   "label": "BASS-II test B1",
+   "data": {
+    "oxygen": 20.6,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B1"
+   }
+  },
+  {
+   "id": "material:PMMA",
+   "type": "Material",
+   "label": "PMMA"
+  },
+  {
+   "id": "record:bass2-B2",
+   "type": "Record",
+   "label": "BASS-II test B2",
+   "data": {
+    "oxygen": 20.6,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "unknown",
+    "href": "/experiments/bass2-B2"
+   }
+  },
+  {
+   "id": "record:bass2-B3",
+   "type": "Record",
+   "label": "BASS-II test B3",
+   "data": {
+    "oxygen": 20.9,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 2,
+    "outcome": "unknown",
+    "href": "/experiments/bass2-B3"
+   }
+  },
+  {
+   "id": "record:bass2-B4",
+   "type": "Record",
+   "label": "BASS-II test B4",
+   "data": {
+    "oxygen": 20.6,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "unknown",
+    "href": "/experiments/bass2-B4"
+   }
+  },
+  {
+   "id": "record:bass2-B5",
+   "type": "Record",
+   "label": "BASS-II test B5",
+   "data": {
+    "oxygen": 20.9,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "unknown",
+    "href": "/experiments/bass2-B5"
+   }
+  },
+  {
+   "id": "record:bass2-B6",
+   "type": "Record",
+   "label": "BASS-II test B6",
+   "data": {
+    "oxygen": 20.1,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 3,
+    "outcome": "sustained",
+    "href": "/experiments/bass2-B6"
+   }
+  },
+  {
+   "id": "record:bass2-B7",
+   "type": "Record",
+   "label": "BASS-II test B7",
+   "data": {
+    "oxygen": 20.6,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 2,
+    "outcome": "unknown",
+    "href": "/experiments/bass2-B7"
+   }
+  },
+  {
+   "id": "record:bass2-B8",
+   "type": "Record",
+   "label": "BASS-II test B8",
+   "data": {
+    "oxygen": 20.1,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 10,
+    "outcome": "sustained",
+    "href": "/experiments/bass2-B8"
+   }
+  },
+  {
+   "id": "record:bass2-B9",
+   "type": "Record",
+   "label": "BASS-II test B9",
+   "data": {
+    "oxygen": 20.1,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 2,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B9"
+   }
+  },
+  {
+   "id": "record:bass2-B10",
+   "type": "Record",
+   "label": "BASS-II test B10",
+   "data": {
+    "oxygen": 20.1,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B10"
+   }
+  },
+  {
+   "id": "record:bass2-B11",
+   "type": "Record",
+   "label": "BASS-II test B11",
+   "data": {
+    "oxygen": 20.1,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B11"
+   }
+  },
+  {
+   "id": "record:bass2-B12",
+   "type": "Record",
+   "label": "BASS-II test B12",
+   "data": {
+    "oxygen": 20.5,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 2,
+    "outcome": "unknown",
+    "href": "/experiments/bass2-B12"
+   }
+  },
+  {
+   "id": "record:bass2-B13",
+   "type": "Record",
+   "label": "BASS-II test B13",
+   "data": {
+    "oxygen": 20.1,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 10,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B13"
+   }
+  },
+  {
+   "id": "record:bass2-B14",
+   "type": "Record",
+   "label": "BASS-II test B14",
+   "data": {
+    "oxygen": 14.1,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B14"
+   }
+  },
+  {
+   "id": "record:bass2-B15",
+   "type": "Record",
+   "label": "BASS-II test B15",
+   "data": {
+    "oxygen": 20.1,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 10,
+    "outcome": "sustained",
+    "href": "/experiments/bass2-B15"
+   }
+  },
+  {
+   "id": "record:bass2-B16",
+   "type": "Record",
+   "label": "BASS-II test B16",
+   "data": {
+    "oxygen": 16.5,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 3,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B16"
+   }
+  },
+  {
+   "id": "record:bass2-B17",
+   "type": "Record",
+   "label": "BASS-II test B17",
+   "data": {
+    "oxygen": 16.6,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B17"
+   }
+  },
+  {
+   "id": "record:bass2-B18",
+   "type": "Record",
+   "label": "BASS-II test B18",
+   "data": {
+    "oxygen": 16.5,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 10,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B18"
+   }
+  },
+  {
+   "id": "record:bass2-B19",
+   "type": "Record",
+   "label": "BASS-II test B19",
+   "data": {
+    "oxygen": 16.4,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 10,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B19"
+   }
+  },
+  {
+   "id": "record:bass2-B20",
+   "type": "Record",
+   "label": "BASS-II test B20",
+   "data": {
+    "oxygen": 16.5,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "sustained",
+    "href": "/experiments/bass2-B20"
+   }
+  },
+  {
+   "id": "record:bass2-B21",
+   "type": "Record",
+   "label": "BASS-II test B21",
+   "data": {
+    "oxygen": 19.8,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B21"
+   }
+  },
+  {
+   "id": "record:bass2-B22",
+   "type": "Record",
+   "label": "BASS-II test B22",
+   "data": {
+    "oxygen": 19.8,
+    "pressureKpa": [
+     99.2,
+     99.5
+    ],
+    "flowCmS": 5,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-B22"
+   }
+  },
+  {
+   "id": "record:bass2-F1",
+   "type": "Record",
+   "label": "BASS-II test F1",
+   "data": {
+    "oxygen": 20.6,
+    "pressureKpa": null,
+    "flowCmS": 9.5,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-F1"
+   }
+  },
+  {
+   "id": "material:Nomex",
+   "type": "Material",
+   "label": "Nomex"
+  },
+  {
+   "id": "record:bass2-F2",
+   "type": "Record",
+   "label": "BASS-II test F2",
+   "data": {
+    "oxygen": 21,
+    "pressureKpa": null,
+    "flowCmS": 15,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-F2"
+   }
+  },
+  {
+   "id": "record:bass2-F3",
+   "type": "Record",
+   "label": "BASS-II test F3",
+   "data": {
+    "oxygen": 20.8,
+    "pressureKpa": null,
+    "flowCmS": 8,
+    "outcome": "extinguished",
+    "href": "/experiments/bass2-F3"
+   }
+  },
+  {
+   "id": "record:saffire-1-1",
+   "type": "Record",
+   "label": "Saffire 1 sample 1-1",
+   "data": {
+    "oxygen": 21.7,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-1-1"
+   }
+  },
+  {
+   "id": "record:saffire-1-2",
+   "type": "Record",
+   "label": "Saffire 1 sample 1-2",
+   "data": {
+    "oxygen": 21.5,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-1-2"
+   }
+  },
+  {
+   "id": "record:saffire-2-1",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-1",
+   "data": {
+    "oxygen": 22.1,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "extinguished",
+    "href": "/saffire#saffire-2-1"
+   }
+  },
+  {
+   "id": "material:Silicone",
+   "type": "Material",
+   "label": "Silicone"
+  },
+  {
+   "id": "record:saffire-2-2",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-2",
+   "data": {
+    "oxygen": 22.1,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "extinguished",
+    "href": "/saffire#saffire-2-2"
+   }
+  },
+  {
+   "id": "record:saffire-2-3",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-3",
+   "data": {
+    "oxygen": 22.1,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "extinguished",
+    "href": "/saffire#saffire-2-3"
+   }
+  },
+  {
+   "id": "record:saffire-2-4",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-4",
+   "data": {
+    "oxygen": 22.1,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "extinguished",
+    "href": "/saffire#saffire-2-4"
+   }
+  },
+  {
+   "id": "record:saffire-2-5",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-5",
+   "data": {
+    "oxygen": 22.1,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-2-5"
+   }
+  },
+  {
+   "id": "record:saffire-2-6",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-6",
+   "data": {
+    "oxygen": 22.1,
+    "pressureKpa": null,
+    "flowCmS": 25,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-2-6"
+   }
+  },
+  {
+   "id": "record:saffire-2-7",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-7",
+   "data": {
+    "oxygen": 22.1,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "not_ignited",
+    "href": "/saffire#saffire-2-7"
+   }
+  },
+  {
+   "id": "record:saffire-2-8",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-8",
+   "data": {
+    "oxygen": 22.1,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-2-8"
+   }
+  },
+  {
+   "id": "record:saffire-2-9",
+   "type": "Record",
+   "label": "Saffire 2 sample 2-9",
+   "data": {
+    "oxygen": 22,
+    "pressureKpa": null,
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-2-9"
+   }
+  },
+  {
+   "id": "record:saffire-iv-1",
+   "type": "Record",
+   "label": "Saffire IV sample IV-1",
+   "data": {
+    "oxygen": 22,
+    "pressureKpa": [
+     100,
+     100
+    ],
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-iv-1"
+   }
+  },
+  {
+   "id": "record:saffire-iv-2",
+   "type": "Record",
+   "label": "Saffire IV sample IV-2",
+   "data": {
+    "oxygen": 22,
+    "pressureKpa": [
+     100,
+     100
+    ],
+    "flowCmS": 20,
+    "outcome": "unknown",
+    "href": "/saffire#saffire-iv-2"
+   }
+  },
+  {
+   "id": "record:saffire-v-2",
+   "type": "Record",
+   "label": "Saffire V sample V-2",
+   "data": {
+    "oxygen": 26.2,
+    "pressureKpa": [
+     70.7,
+     70.7
+    ],
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-v-2"
+   }
+  },
+  {
+   "id": "material:Cotton jersey",
+   "type": "Material",
+   "label": "Cotton jersey"
+  },
+  {
+   "id": "record:saffire-v-3",
+   "type": "Record",
+   "label": "Saffire V sample V-3",
+   "data": {
+    "oxygen": 25.4,
+    "pressureKpa": [
+     71.3,
+     71.3
+    ],
+    "flowCmS": 20,
+    "outcome": "unknown",
+    "href": "/saffire#saffire-v-3"
+   }
+  },
+  {
+   "id": "record:saffire-v-4",
+   "type": "Record",
+   "label": "Saffire V sample V-4",
+   "data": {
+    "oxygen": 25.7,
+    "pressureKpa": [
+     72.6,
+     72.6
+    ],
+    "flowCmS": 20,
+    "outcome": "unknown",
+    "href": "/saffire#saffire-v-4"
+   }
+  },
+  {
+   "id": "record:saffire-vi-1",
+   "type": "Record",
+   "label": "Saffire VI sample VI-1",
+   "data": {
+    "oxygen": null,
+    "pressureKpa": null,
+    "flowCmS": null,
+    "outcome": "not_ignited",
+    "href": "/saffire#saffire-vi-1"
+   }
+  },
+  {
+   "id": "record:saffire-vi-2",
+   "type": "Record",
+   "label": "Saffire VI sample VI-2",
+   "data": {
+    "oxygen": 31,
+    "pressureKpa": [
+     54.1,
+     54.1
+    ],
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-vi-2"
+   }
+  },
+  {
+   "id": "record:saffire-vi-3",
+   "type": "Record",
+   "label": "Saffire VI sample VI-3",
+   "data": {
+    "oxygen": 30.3,
+    "pressureKpa": [
+     54.6,
+     54.6
+    ],
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-vi-3"
+   }
+  },
+  {
+   "id": "record:saffire-vi-4",
+   "type": "Record",
+   "label": "Saffire VI sample VI-4",
+   "data": {
+    "oxygen": 28.8,
+    "pressureKpa": [
+     55.2,
+     55.2
+    ],
+    "flowCmS": 20,
+    "outcome": "sustained",
+    "href": "/saffire#saffire-vi-4"
+   }
+  },
+  {
+   "id": "record:luci-sibal",
+   "type": "Record",
+   "label": "LUCI SIBAL (simulated lunar gravity)",
+   "data": {
+    "oxygen": 20,
+    "pressureKpa": [
+     101.3,
+     101.3
+    ],
+    "flowCmS": null,
+    "outcome": "sustained",
+    "href": "/atlas#luci-sibal"
+   }
+  },
+  {
+   "id": "record:luci-pmma",
+   "type": "Record",
+   "label": "LUCI PMMA rod (simulated lunar gravity)",
+   "data": {
+    "oxygen": 20,
+    "pressureKpa": [
+     101.3,
+     101.3
+    ],
+    "flowCmS": null,
+    "outcome": "extinguished",
+    "href": "/atlas#luci-pmma"
+   }
+  },
+  {
+   "id": "finding:low-flow-sensitivity",
+   "type": "Finding",
+   "label": "Microgravity flames were found to be especially sensitive to air flow speed in the range 0",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "airflow"
+    ],
+    "page": 54
+   }
+  },
+  {
+   "id": "finding:dim-blue-low-flow",
+   "type": "Finding",
+   "label": "At the lowest speeds examined (less than 1 cm/s) all the flames tended to become dim blue ",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "airflow",
+     "detection"
+    ],
+    "page": 54
+   }
+  },
+  {
+   "id": "finding:tiny-flame-undetected",
+   "type": "Finding",
+   "label": "This has implications for spacecraft fire safety since a tiny flame might be undetected fo",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "detection",
+     "airflow"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:flames-survive-below-1",
+   "type": "Finding",
+   "label": "Flames survived at airflow less than 1 cm/s.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "airflow"
+    ],
+    "page": 74
+   }
+  },
+  {
+   "id": "finding:sibal-quench-speeds",
+   "type": "Finding",
+   "label": "The quenching speeds were found to be between 1 and 5 cm/s with higher speed in lower oxyg",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "airflow",
+     "oxygen",
+     "quench"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:sibal-first-boundary",
+   "type": "Finding",
+   "label": "This is the first time that a low-speed quenching boundary in concurrent spread is determi",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "quench"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:sibal-spread-trends",
+   "type": "Finding",
+   "label": "Flames spread more slowly across the narrower samples, at lower flow velocities and at low",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "airflow",
+     "oxygen",
+     "geometry"
+    ],
+    "page": 103
+   }
+  },
+  {
+   "id": "finding:sibal-10-vs-5",
+   "type": "Finding",
+   "label": "Compared with the 10-cm/s case, the 5-cm/s case has a shorter flame and spreads more slowl",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "airflow"
+    ],
+    "page": 103
+   }
+  },
+  {
+   "id": "finding:sibal-10-duration",
+   "type": "Finding",
+   "label": "The whole combustion process took about 40 s.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "airflow"
+    ],
+    "page": 103
+   }
+  },
+  {
+   "id": "finding:sibal-5-duration",
+   "type": "Finding",
+   "label": "Because the flow speed is lower, it took more than 60 s to burn the whole sample.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "airflow"
+    ],
+    "page": 103
+   }
+  },
+  {
+   "id": "finding:pmma-rod-limits",
+   "type": "Finding",
+   "label": "Both blowoff and quenching limits were obtained at several oxygen concentrations.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "oxygen",
+     "blowoff",
+     "quench"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:quench-mechanism",
+   "type": "Finding",
+   "label": "Quenching was observed when the flow became sufficiently weak that the flame could no long",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "quench",
+     "airflow"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:low-g-burns-lower-o2",
+   "type": "Finding",
+   "label": "Previous testing at microgravity and Lunar gravity indicated that some materials burned to",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "partial-gravity",
+     "oxygen"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:factor-of-safety",
+   "type": "Finding",
+   "label": "If proven for more materials, this may indicate the need to include a factor of safety on ",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "partial-gravity"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:luci-first-lunar",
+   "type": "Finding",
+   "label": "These are the first-ever, extended-duration (greater than 25 seconds) combustion tests per",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "partial-gravity"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:luci-fm2",
+   "type": "Finding",
+   "label": "Finally, the experiment is a steppingstone to the ultimate goal of performing burn tests o",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "partial-gravity"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:fm2-measurements",
+   "type": "Finding",
+   "label": "The results of flame size, spread rate, atmosphere changes, and extinction oxygen concentr",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "partial-gravity"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:fm2-atmospheres",
+   "type": "Finding",
+   "label": "The environmental control system can replicate and conduct fire experiments automatically ",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "partial-gravity",
+     "oxygen",
+     "pressure"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:fm2-samples",
+   "type": "Finding",
+   "label": "There are four samples currently planned; two SIBAL fabrics (cotton/fiberglass blend) whic",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "partial-gravity",
+     "materials-screening"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:sibal-lunar-downward",
+   "type": "Finding",
+   "label": "SIBAL fabric has been found to only burn downward in air in lunar gravity (via Lunar gravi",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "partial-gravity",
+     "materials-screening"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:lunar-goldilocks",
+   "type": "Finding",
+   "label": "Lunar gravity has been found to increase the limits of flammability for some materials com",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "partial-gravity",
+     "oxygen"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:confinement-small-gap",
+   "type": "Finding",
+   "label": "For all baffle types, the flame either fails to ignite or extinguishes before reaching the",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "confinement"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:exploration-atmosphere",
+   "type": "Finding",
+   "label": "An “exploration atmosphere” of 56.5 kPa (8.2 psia), 34% O2, 66% N2 has been recommended by",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "oxygen",
+     "pressure",
+     "partial-gravity"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:alt-exploration-atmosphere",
+   "type": "Finding",
+   "label": "Fourteen volunteers completed 11-day hypobaric chamber studies with an “alternate explorat",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "oxygen",
+     "pressure"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:enriched-o2-flammability",
+   "type": "Finding",
+   "label": "In previous studies, we validated a prebreathe protocol from a 56.5 kPa 34% O2 cabin to a ",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "oxygen",
+     "pressure",
+     "materials-screening"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:proposed-ea-66",
+   "type": "Finding",
+   "label": "Subjects acclimated for 48 hrs at the proposed Exploration Atmosphere (66.2kPa, 28.5% O2) ",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "oxygen",
+     "pressure"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:saffire-vs-bass",
+   "type": "Finding",
+   "label": "While steady flame spread was also observed, the flame spread rates at the steady state in",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "confinement",
+     "geometry"
+    ],
+    "page": 2
+   }
+  },
+  {
+   "id": "finding:bass-duct",
+   "type": "Finding",
+   "label": "The tests were performed in the 250-L free volume Microgravity Science Glovebox (MSG) in t",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 74
+   }
+  },
+  {
+   "id": "finding:bass-duct-size",
+   "type": "Finding",
+   "label": "The flow duct measured 7.6 by 7.6 by 17 cm with rounded internal corners for smooth lamina",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 74
+   }
+  },
+  {
+   "id": "finding:blowoff-kinetics",
+   "type": "Finding",
+   "label": "As the opposed-flow velocity is increased, the residence time being inversely proportional",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "blowoff",
+     "airflow"
+    ],
+    "page": 28
+   }
+  },
+  {
+   "id": "finding:radiative-regime",
+   "type": "Finding",
+   "label": "studies have established the radiative regime in the mild opposed-flow environment in whic",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "quench",
+     "airflow"
+    ],
+    "page": 28
+   }
+  },
+  {
+   "id": "finding:hw-duct",
+   "type": "Finding",
+   "label": "The black anodized 7.6- by 7.6- by 17-cm rectangular flow duct with rounded corners was or",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 12
+   }
+  },
+  {
+   "id": "finding:hw-fan",
+   "type": "Finding",
+   "label": "The flow was blown through the duct using a variable speed fan.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 12
+   }
+  },
+  {
+   "id": "finding:hw-straightener",
+   "type": "Finding",
+   "label": "The flow then passed through a honeycomb flow straightener and an inlet screen to reduce s",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 12
+   }
+  },
+  {
+   "id": "finding:hw-radiometer",
+   "type": "Finding",
+   "label": "Inside the test section was a nozzle for N2 flow, a movable scale, and an Oriel® 71768 the",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 12
+   }
+  },
+  {
+   "id": "finding:hw-still-camera",
+   "type": "Finding",
+   "label": "The top window was used by a Nikon D300s 12.3-megapixel digital color still camera with a ",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 12
+   }
+  },
+  {
+   "id": "finding:hw-video",
+   "type": "Finding",
+   "label": "The video camera had an overlay that displayed the N2 flow rate (cm3/min), fan voltage (10",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 13
+   }
+  },
+  {
+   "id": "finding:hw-igniter",
+   "type": "Finding",
+   "label": "The samples were manually ignited with a Kanthal® A–1 29-gauge hot-wire igniter coil with ",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 13
+   }
+  },
+  {
+   "id": "finding:hw-samples",
+   "type": "Finding",
+   "label": "The flat samples were 1 or 2 cm wide.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 13
+   }
+  },
+  {
+   "id": "finding:hw-exit",
+   "type": "Finding",
+   "label": "The duct exit contained a perforated copper plate followed by a brass screen to provide he",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 12
+   }
+  },
+  {
+   "id": "finding:hw-nitrogen",
+   "type": "Finding",
+   "label": "Working volume of MSG was diluted using ISS N2 gas.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "apparatus"
+    ],
+    "page": 12
+   }
+  },
+  {
+   "id": "finding:saffire-first-large-fire",
+   "type": "Finding",
+   "label": "For the first time, a large-scale fire was intentionally set inside a spacecraft while in ",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "scale"
+    ],
+    "page": 26
+   }
+  },
+  {
+   "id": "finding:saffire-steady-wide-flame",
+   "type": "Finding",
+   "label": "Unlike 1-g, the results revealed that a steady flame could be achieved even for a wide sam",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "scale",
+     "airflow"
+    ],
+    "page": 26
+   }
+  },
+  {
+   "id": "finding:saffire-confined-slower",
+   "type": "Finding",
+   "label": "The flames spread more slowly than prior tests in smaller ducts. This behavior of the flam",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "confinement",
+     "scale"
+    ],
+    "page": 26
+   }
+  },
+  {
+   "id": "finding:saffire-silicone-reduced",
+   "type": "Finding",
+   "label": "Flammability of silicone in microgravity appears to be reduced compared to normal gravity,",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "materials-screening"
+    ],
+    "page": 26
+   }
+  },
+  {
+   "id": "finding:saffire-nomex-not-ignited",
+   "type": "Finding",
+   "label": "Despite this significant heating load, the fabric was not ignited.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "materials-screening"
+    ],
+    "page": 25
+   }
+  },
+  {
+   "id": "finding:saffire-quiescent-extinguishment",
+   "type": "Finding",
+   "label": "Extinguishment of thin charring fuels at increased oxygen cannot be assumed to occur rapid",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "suppression",
+     "oxygen",
+     "airflow"
+    ],
+    "page": 7
+   }
+  },
+  {
+   "id": "finding:saffire-thick-fuel-pinned",
+   "type": "Finding",
+   "label": "Flames on thick fuels in concurrent flow did not spread and were instead pinned to the lea",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "geometry"
+    ],
+    "page": 13
+   }
+  },
+  {
+   "id": "finding:saffire-flame-jumped-gap",
+   "type": "Finding",
+   "label": "In one case, a flame was seen to jump a 4.5 cm gap to ignite a previously warmed PMMA surf",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "scale"
+    ],
+    "page": 13
+   }
+  },
+  {
+   "id": "finding:saffire-smoke-main-hazard",
+   "type": "Finding",
+   "label": "Collectively these results demonstrate that the human hazard from a fire in a spacecraft i",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "smoke",
+     "detection"
+    ],
+    "page": 6
+   }
+  },
+  {
+   "id": "finding:saffire-alarm-981-s",
+   "type": "Finding",
+   "label": "The smoke from the fire event was readily detected by an ionization detector and a light s",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "detection",
+     "smoke"
+    ],
+    "page": 6
+   }
+  },
+  {
+   "id": "finding:saffire-co-co2-limits",
+   "type": "Finding",
+   "label": "However, the ambient concentrations of carbon monoxide and carbon dioxide rose significant",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "smoke"
+    ],
+    "page": 6
+   }
+  },
+  {
+   "id": "finding:saffire-partial-g-needed",
+   "type": "Finding",
+   "label": "Further work will be needed to extend these results to the partial gravity environment exp",
+   "data": {
+    "kind": "interpretation",
+    "topics": [
+     "partial-gravity"
+    ],
+    "page": 6
+   }
+  },
+  {
+   "id": "finding:saffire-practical-scale-kw",
+   "type": "Finding",
+   "label": "Practical scale fires ranging from 1.5 to 3.2 kW were tested in unmanned spacecraft with f",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "scale"
+    ],
+    "page": 6
+   }
+  },
+  {
+   "id": "finding:flex-loi-objective",
+   "type": "Finding",
+   "label": "A principle objective was to determine the limiting oxygen index (LOI), the oxygen percent",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "oxygen",
+     "droplet"
+    ],
+    "page": 8
+   }
+  },
+  {
+   "id": "finding:flex-loi-lower",
+   "type": "Finding",
+   "label": "Observed LOI values for these fuels appear to be slightly lower than initially expected.",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "oxygen",
+     "droplet"
+    ],
+    "page": 8
+   }
+  },
+  {
+   "id": "finding:flex-test-conditions",
+   "type": "Finding",
+   "label": "The droplets had initial diameters between 2 and 5 mm, and they were burned in oxidizing a",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "droplet",
+     "pressure",
+     "suppression"
+    ],
+    "page": 8
+   }
+  },
+  {
+   "id": "finding:sofie-lower-o2-reduced-g",
+   "type": "Finding",
+   "label": "In reduced gravity (0g, Lunar g, Martian g), a flame can be sustained at lower O2.",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "partial-gravity",
+     "oxygen",
+     "materials-screening"
+    ],
+    "page": 6
+   }
+  },
+  {
+   "id": "finding:sofie-exploration-atmosphere",
+   "type": "Finding",
+   "label": "Thin fuel sheets: few materials rated even in 1g at 34% O2, 8.2 psia (exploration atmosphe",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "pressure",
+     "oxygen",
+     "materials-screening"
+    ],
+    "page": 6
+   }
+  },
+  {
+   "id": "finding:sofie-exploration-testing",
+   "type": "Finding",
+   "label": "The CIR chamber provides a level of containment and permits testing at variable oxygen con",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "pressure",
+     "oxygen"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:acme-spherical-flames",
+   "type": "Finding",
+   "label": "The microgravity environment avoids buoyancy-induced flicker and enables the creation of s",
+   "data": {
+    "kind": "observed",
+    "topics": [
+     "gas-flame"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "finding:acme-secondary-objective",
+   "type": "Finding",
+   "label": "The research is primarily focused on improving practical terrestrial combustion through fu",
+   "data": {
+    "kind": "context",
+    "topics": [
+     "gas-flame"
+    ],
+    "page": null
+   }
+  },
+  {
+   "id": "scenario:moon-base",
+   "type": "Scenario",
+   "label": "A Moon base in exploration atmosphere A",
+   "data": {
+    "material": "PMMA",
+    "oxygen": 34,
+    "pressureKpa": 56.5,
+    "gravity": "lunar",
+    "flow": 20
+   }
+  },
+  {
+   "id": "gap:moon-base:oxygen",
+   "type": "Gap",
+   "label": "No test record is within ±1.5 points of 34 % oxygen."
+  },
+  {
+   "id": "scenario:mars-fabric",
+   "type": "Scenario",
+   "label": "Fabric in a Mars habitat, atmosphere A",
+   "data": {
+    "material": "SIBAL fabric",
+    "oxygen": 34,
+    "pressureKpa": 56.5,
+    "gravity": "martian"
+   }
+  },
+  {
+   "id": "gap:mars-fabric:gravity",
+   "type": "Gap",
+   "label": "No test record in this atlas burned at Martian gravity. Short partial-gravity tests exist as reported findings, not test rows."
+  },
+  {
+   "id": "gap:mars-fabric:oxygen",
+   "type": "Gap",
+   "label": "No test record is within ±1.5 points of 34 % oxygen."
+  },
+  {
+   "id": "scenario:lunar-normal-air",
+   "type": "Scenario",
+   "label": "A lunar habitat with Earth-like air",
+   "data": {
+    "material": "SIBAL fabric",
+    "oxygen": 21,
+    "pressureKpa": 101.3,
+    "gravity": "lunar"
+   }
+  },
+  {
+   "id": "scenario:iss-still-air",
+   "type": "Scenario",
+   "label": "The ISS with its fans off",
+   "data": {
+    "material": "PMMA",
+    "oxygen": 21,
+    "pressureKpa": 101.3,
+    "gravity": "microgravity",
+    "flow": 1
+   }
+  }
+ ],
+ "edges": [
+  {
+   "from": "source:bass2-summary",
+   "to": "family:bass2",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:bass2-results",
+   "to": "family:bass2",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:pmma-rods-concurrent",
+   "to": "family:bass2",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:sibal-concurrent",
+   "to": "family:bass2",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:bass-thickness",
+   "to": "family:bass2",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:confinement",
+   "to": "family:bass2",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:partial-g",
+   "to": "family:partial-g",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:luci",
+   "to": "family:luci",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:exploration-atmosphere",
+   "to": "family:context",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:ea-alt",
+   "to": "family:context",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:fm2-plan",
+   "to": "family:fm2",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:fm2-atmospheres",
+   "to": "family:fm2",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:ea-6",
+   "to": "family:context",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "family:saffire",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:saffire-4-5",
+   "to": "family:saffire",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:saffire-6",
+   "to": "family:saffire",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:flex",
+   "to": "family:flex",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:sofie",
+   "to": "family:sofie",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "source:acme",
+   "to": "family:acme",
+   "type": "SOURCE_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT45-T1",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT45-T1",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT45-T1",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT45-T2",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT45-T2",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT45-T2",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT45-T4",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT45-T4",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT45-T4",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT45-T15",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT45-T15",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT45-T15",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT100-T5",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT100-T5",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT100-T5",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT100-T6",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT100-T6",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT100-T6",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT100-T13",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT100-T13",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT100-T13",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT100-T16",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT100-T16",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT100-T16",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT175-T9",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT175-T9",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT175-T9",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT175-T10",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT175-T10",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT175-T10",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT175-T18",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT175-T18",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT175-T18",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT178-T11",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT178-T11",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT178-T11",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT178-T12",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT178-T12",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT178-T12",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT178-T14",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT178-T14",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT178-T14",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT178-T17",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT178-T17",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT178-T17",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT190-T19",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT190-T19",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT190-T19",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT190-T20",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT190-T20",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT190-T20",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT190-T21",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT190-T21",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT190-T21",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT190-T22",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT190-T22",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT190-T22",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT190-T23",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT190-T23",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT190-T23",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT190-T24",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT190-T24",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT190-T24",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT216-T25",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT216-T25",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT216-T25",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT216-T26",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT216-T26",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT216-T26",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT216-T27",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT216-T27",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT216-T27",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT216-T28a",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT216-T28a",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT216-T28a",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT216-T28b",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT216-T28b",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT216-T28b",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT216-T29",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT216-T29",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT216-T29",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT96-T8",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT96-T8",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT96-T8",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT96-T7",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT96-T7",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT96-T7",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT131-T10",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT131-T10",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT131-T10",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:sibal-GMT222-T11",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:sibal-GMT222-T11",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:sibal-GMT222-T11",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 104"
+  },
+  {
+   "from": "record:bass2-B1",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B1",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B1",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B2",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B2",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B2",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B3",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B3",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B3",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B4",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B4",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B4",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B5",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B5",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B5",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B6",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B6",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B6",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B7",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B7",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B7",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B8",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B8",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B8",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B9",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B9",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B9",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B10",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B10",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B10",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B11",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B11",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B11",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B12",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B12",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B12",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B13",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B13",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B13",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B14",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B14",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B14",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B15",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B15",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B15",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B16",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B16",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B16",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B17",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B17",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B17",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 111"
+  },
+  {
+   "from": "record:bass2-B18",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B18",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B18",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B19",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B19",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B19",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B20",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B20",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B20",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B21",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B21",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B21",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-B22",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-B22",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-B22",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 112"
+  },
+  {
+   "from": "record:bass2-F1",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-F1",
+   "to": "material:Nomex",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-F1",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 113"
+  },
+  {
+   "from": "record:bass2-F2",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-F2",
+   "to": "material:Nomex",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-F2",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 113"
+  },
+  {
+   "from": "record:bass2-F3",
+   "to": "family:bass2",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:bass2-F3",
+   "to": "material:Nomex",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:bass2-summary",
+   "to": "record:bass2-F3",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 113"
+  },
+  {
+   "from": "record:saffire-1-1",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-1-1",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-1-1",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-1-2",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-1-2",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-1-2",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-1",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-1",
+   "to": "material:Silicone",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-1",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-2",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-2",
+   "to": "material:Silicone",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-2",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-3",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-3",
+   "to": "material:Silicone",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-3",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-4",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-4",
+   "to": "material:Silicone",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-4",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-5",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-5",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-5",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-6",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-6",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-6",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-7",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-7",
+   "to": "material:Nomex",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-7",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-8",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-8",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-8",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-2-9",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-2-9",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-1-3",
+   "to": "record:saffire-2-9",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 29"
+  },
+  {
+   "from": "record:saffire-iv-1",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-iv-1",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-4-5",
+   "to": "record:saffire-iv-1",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 5"
+  },
+  {
+   "from": "record:saffire-iv-2",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-iv-2",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-4-5",
+   "to": "record:saffire-iv-2",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 5"
+  },
+  {
+   "from": "record:saffire-v-2",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-v-2",
+   "to": "material:Cotton jersey",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-4-5",
+   "to": "record:saffire-v-2",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 5"
+  },
+  {
+   "from": "record:saffire-v-3",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-v-3",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-4-5",
+   "to": "record:saffire-v-3",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 5"
+  },
+  {
+   "from": "record:saffire-v-4",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-v-4",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-4-5",
+   "to": "record:saffire-v-4",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 5"
+  },
+  {
+   "from": "record:saffire-vi-1",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-vi-1",
+   "to": "material:Nomex",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-6",
+   "to": "record:saffire-vi-1",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 4"
+  },
+  {
+   "from": "record:saffire-vi-2",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-vi-2",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-6",
+   "to": "record:saffire-vi-2",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 3"
+  },
+  {
+   "from": "record:saffire-vi-3",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-vi-3",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-6",
+   "to": "record:saffire-vi-3",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 3"
+  },
+  {
+   "from": "record:saffire-vi-4",
+   "to": "family:saffire",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:saffire-vi-4",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:saffire-6",
+   "to": "record:saffire-vi-4",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 3"
+  },
+  {
+   "from": "record:luci-sibal",
+   "to": "family:luci",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:luci-sibal",
+   "to": "material:SIBAL fabric",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:luci",
+   "to": "record:luci-sibal",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 16"
+  },
+  {
+   "from": "record:luci-pmma",
+   "to": "family:luci",
+   "type": "RECORD_IN_FAMILY"
+  },
+  {
+   "from": "record:luci-pmma",
+   "to": "material:PMMA",
+   "type": "RECORD_USES_MATERIAL"
+  },
+  {
+   "from": "source:luci",
+   "to": "record:luci-pmma",
+   "type": "SOURCE_DOCUMENTS_RECORD",
+   "note": "PDF page 20"
+  },
+  {
+   "from": "finding:low-flow-sensitivity",
+   "to": "source:bass-thickness",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:dim-blue-low-flow",
+   "to": "source:bass-thickness",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:tiny-flame-undetected",
+   "to": "source:bass-thickness",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:flames-survive-below-1",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sibal-quench-speeds",
+   "to": "source:sibal-concurrent",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sibal-first-boundary",
+   "to": "source:sibal-concurrent",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sibal-spread-trends",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sibal-10-vs-5",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sibal-10-vs-5",
+   "to": "record:sibal-GMT96-T7",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:sibal-10-vs-5",
+   "to": "record:sibal-GMT96-T8",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:sibal-10-duration",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sibal-10-duration",
+   "to": "record:sibal-GMT96-T7",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:sibal-5-duration",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sibal-5-duration",
+   "to": "record:sibal-GMT96-T8",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:pmma-rod-limits",
+   "to": "source:pmma-rods-concurrent",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:quench-mechanism",
+   "to": "source:pmma-rods-concurrent",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:low-g-burns-lower-o2",
+   "to": "source:partial-g",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:factor-of-safety",
+   "to": "source:partial-g",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:luci-first-lunar",
+   "to": "source:luci",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:luci-fm2",
+   "to": "source:luci",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:fm2-measurements",
+   "to": "source:fm2-plan",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:fm2-atmospheres",
+   "to": "source:fm2-atmospheres",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:fm2-samples",
+   "to": "source:fm2-atmospheres",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sibal-lunar-downward",
+   "to": "source:fm2-atmospheres",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:lunar-goldilocks",
+   "to": "source:fm2-atmospheres",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:confinement-small-gap",
+   "to": "source:confinement",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:exploration-atmosphere",
+   "to": "source:exploration-atmosphere",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:alt-exploration-atmosphere",
+   "to": "source:ea-alt",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:enriched-o2-flammability",
+   "to": "source:ea-alt",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:proposed-ea-66",
+   "to": "source:ea-6",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-vs-bass",
+   "to": "source:confinement",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:bass-duct",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:bass-duct-size",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:blowoff-kinetics",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:radiative-regime",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-duct",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-fan",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-straightener",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-radiometer",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-still-camera",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-video",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-igniter",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-samples",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-exit",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:hw-nitrogen",
+   "to": "source:bass2-summary",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-first-large-fire",
+   "to": "source:saffire-1-3",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-first-large-fire",
+   "to": "record:saffire-1-1",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-first-large-fire",
+   "to": "record:saffire-1-2",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-steady-wide-flame",
+   "to": "source:saffire-1-3",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-steady-wide-flame",
+   "to": "record:saffire-1-1",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-confined-slower",
+   "to": "source:saffire-1-3",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-confined-slower",
+   "to": "record:saffire-1-1",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-silicone-reduced",
+   "to": "source:saffire-1-3",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-silicone-reduced",
+   "to": "record:saffire-2-1",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-silicone-reduced",
+   "to": "record:saffire-2-2",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-silicone-reduced",
+   "to": "record:saffire-2-3",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-silicone-reduced",
+   "to": "record:saffire-2-4",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-nomex-not-ignited",
+   "to": "source:saffire-1-3",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-nomex-not-ignited",
+   "to": "record:saffire-2-7",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-quiescent-extinguishment",
+   "to": "source:saffire-4-5",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-quiescent-extinguishment",
+   "to": "record:saffire-v-2",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-thick-fuel-pinned",
+   "to": "source:saffire-4-5",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-flame-jumped-gap",
+   "to": "source:saffire-4-5",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-smoke-main-hazard",
+   "to": "source:saffire-6",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-smoke-main-hazard",
+   "to": "record:saffire-iv-1",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-smoke-main-hazard",
+   "to": "record:saffire-v-2",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-smoke-main-hazard",
+   "to": "record:saffire-vi-2",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-smoke-main-hazard",
+   "to": "record:saffire-vi-3",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-smoke-main-hazard",
+   "to": "record:saffire-vi-4",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-alarm-981-s",
+   "to": "source:saffire-6",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-co-co2-limits",
+   "to": "source:saffire-6",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-co-co2-limits",
+   "to": "record:saffire-vi-3",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-co-co2-limits",
+   "to": "record:saffire-vi-4",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-partial-g-needed",
+   "to": "source:saffire-6",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-practical-scale-kw",
+   "to": "source:saffire-6",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:saffire-practical-scale-kw",
+   "to": "record:saffire-iv-1",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-practical-scale-kw",
+   "to": "record:saffire-v-2",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-practical-scale-kw",
+   "to": "record:saffire-vi-2",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-practical-scale-kw",
+   "to": "record:saffire-vi-3",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:saffire-practical-scale-kw",
+   "to": "record:saffire-vi-4",
+   "type": "FINDING_ABOUT_RECORD"
+  },
+  {
+   "from": "finding:flex-loi-objective",
+   "to": "source:flex",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:flex-loi-lower",
+   "to": "source:flex",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:flex-test-conditions",
+   "to": "source:flex",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sofie-lower-o2-reduced-g",
+   "to": "source:sofie",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sofie-exploration-atmosphere",
+   "to": "source:sofie",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:sofie-exploration-testing",
+   "to": "source:sofie",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:acme-spherical-flames",
+   "to": "source:acme",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "finding:acme-secondary-objective",
+   "to": "source:acme",
+   "type": "FINDING_SUPPORTED_BY_SOURCE"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "record:saffire-vi-3",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity, oxygen"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "record:saffire-vi-4",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity, oxygen"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "record:luci-pmma",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "oxygen, pressure, flow"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "record:saffire-vi-2",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "material, gravity, oxygen"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "record:saffire-v-3",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity, oxygen, pressure"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "finding:flex-loi-objective",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "finding:flex-loi-lower",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "finding:flex-test-conditions",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:moon-base",
+   "to": "gap:moon-base:oxygen",
+   "type": "SCENARIO_MISSING"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "record:saffire-vi-2",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity, oxygen"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "record:saffire-vi-3",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "material, gravity, oxygen"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "record:saffire-vi-4",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "material, gravity, oxygen"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "record:saffire-iv-1",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity, oxygen, pressure"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "record:sibal-GMT131-T10",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity, oxygen, pressure"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "finding:flex-loi-objective",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "finding:flex-loi-lower",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "finding:flex-test-conditions",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "gap:mars-fabric:gravity",
+   "type": "SCENARIO_MISSING"
+  },
+  {
+   "from": "scenario:mars-fabric",
+   "to": "gap:mars-fabric:oxygen",
+   "type": "SCENARIO_MISSING"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "record:luci-sibal",
+   "type": "SCENARIO_DIRECT"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "record:luci-pmma",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "material"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "record:sibal-GMT131-T10",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "record:sibal-GMT222-T11",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "record:sibal-GMT96-T7",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "record:sibal-GMT96-T8",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "gravity"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "finding:flex-loi-objective",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "finding:flex-loi-lower",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:lunar-normal-air",
+   "to": "finding:flex-test-conditions",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:bass2-B3",
+   "type": "SCENARIO_DIRECT"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:bass2-B7",
+   "type": "SCENARIO_DIRECT"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:bass2-B9",
+   "type": "SCENARIO_DIRECT"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:bass2-B12",
+   "type": "SCENARIO_DIRECT"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:bass2-B5",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "flow"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:bass2-B1",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "flow"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:bass2-B2",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "flow"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:bass2-B4",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "flow"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "record:saffire-iv-2",
+   "type": "SCENARIO_ANALOGOUS",
+   "note": "flow"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "finding:flex-loi-objective",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "finding:flex-loi-lower",
+   "type": "SCENARIO_MECHANISTIC"
+  },
+  {
+   "from": "scenario:iss-still-air",
+   "to": "finding:flex-test-conditions",
+   "type": "SCENARIO_MECHANISTIC"
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+id,flight,sample,material,material_verbatim,thickness_mm,width_cm,length_cm,flow_cm_s,flow_direction,pressure_kpa,o2_pct,o2_basis,burn_duration_s,spread_rate_mm_s,heat_release_avg_w,heat_release_peak_w,outcome,outcome_label,conditions_source,conditions_pdf_page,results_source,results_pdf_page
+saffire-1-1,Saffire-1,1-1,SIBAL fabric,Cotton-Fiberglass,0.37,40.6,94,20,concurrent,,21.7,range,420,1.8,,,sustained,Burned until the airflow was shut off,saffire-1-3,29,saffire-1-3,29
+saffire-1-2,Saffire-1,1-2,SIBAL fabric,Cotton-Fiberglass,0.37,40.6,10,20,opposed,,21.5,approx,70,1.3,,,sustained,Spread against the flow over the remaining fuel,saffire-1-3,29,saffire-1-3,29
+saffire-2-1,Saffire-2,2-1,Silicone,Silicone,0.27,5,29,20,concurrent,,22.1,approx,,,,,extinguished,Did not spread; the small flame went out after the igniter,saffire-1-3,29,saffire-1-3,29
+saffire-2-2,Saffire-2,2-2,Silicone,Silicone,0.61,5,29,20,concurrent,,22.1,approx,,,,,extinguished,Did not spread; the small flame went out after the igniter,saffire-1-3,29,saffire-1-3,29
+saffire-2-3,Saffire-2,2-3,Silicone,Silicone,1.03,5,29,20,concurrent,,22.1,approx,,,,,extinguished,Did not spread; the small flame went out after the igniter,saffire-1-3,29,saffire-1-3,29
+saffire-2-4,Saffire-2,2-4,Silicone,Silicone,0.37,5,29,20,opposed,,22.1,approx,,,,,extinguished,Did not spread; the small flame went out after the igniter,saffire-1-3,29,saffire-1-3,29
+saffire-2-5,Saffire-2,2-5,SIBAL fabric,Cotton-Fiberglass,0.37,5,29,20,concurrent,,22.1,approx,145,2.1,,,sustained,Burned the full sample length,saffire-1-3,29,saffire-1-3,29
+saffire-2-6,Saffire-2,2-6,SIBAL fabric,Cotton-Fiberglass,0.37,5,29,25,concurrent,,22.1,approx,115,2.6,,,sustained,Burned the full sample length,saffire-1-3,29,saffire-1-3,29
+saffire-2-7,Saffire-2,2-7,Nomex,PMMA & Nomex,0.37,5,24,20,concurrent,,22.1,approx,140,,,,not_ignited,"The PMMA lead-in burned away, but the Nomex did not ignite",saffire-1-3,29,saffire-1-3,29
+saffire-2-8,Saffire-2,2-8,PMMA,PMMA,,5,29,20,concurrent,,22.1,range,600,,,,sustained,"Burned anchored at the leading edge, without spreading",saffire-1-3,29,saffire-1-3,29
+saffire-2-9,Saffire-2,2-9,PMMA,PMMA,10,5,29,20,concurrent,,22,range,900,,,,sustained,"Burned anchored at the leading edge, without spreading",saffire-1-3,29,saffire-1-3,29
+saffire-iv-1,Saffire-IV,IV-1,SIBAL fabric,SIBAL Cloth,,,50,20,concurrent,100,22,recorded,130,,3150,,sustained,Burned for 130 s,saffire-4-5,5,saffire-6,6
+saffire-iv-2,Saffire-IV,IV-2,PMMA,2-sided PMMA,10,,18,20,concurrent,100,22,recorded,,,,,unknown,Outcome not stated per sample in these sources,saffire-4-5,5,,
+saffire-v-2,Saffire-V,V-2,Cotton jersey,Cotton Jersey,,,50,20,concurrent,70.7,26.2,recorded,200,,2800,,sustained,Burned for 200 s,saffire-4-5,5,saffire-6,6
+saffire-v-3,Saffire-V,V-3,PMMA,1 sided PMMA,5,,18,20,concurrent,71.3,25.4,recorded,,,,,unknown,Outcome not stated per sample in these sources,saffire-4-5,5,,
+saffire-v-4,Saffire-V,V-4,PMMA,Structured PMMA,10,,20,20,opposed,72.6,25.7,recorded,,,,,unknown,Outcome not stated per sample in these sources,saffire-4-5,5,,
+saffire-vi-1,Saffire-VI,VI-1,Nomex,Nomex Fabric,,,,,,,,,,,,,not_ignited,Did not ignite,,,,
+saffire-vi-2,Saffire-VI,VI-2,SIBAL fabric,SIBAL Cloth,,,50,20,concurrent,54.1,31,recorded,112,,3650,3217,sustained,Reached a steady size and spread rate quickly,saffire-6,3,saffire-6,6
+saffire-vi-3,Saffire-VI,VI-3,PMMA,Two-Sided PMMA,10,,18,20,concurrent,54.6,30.3,recorded,780,,,3080,sustained,Grew continuously until the flow was reduced,saffire-6,3,saffire-6,6
+saffire-vi-4,Saffire-VI,VI-4,PMMA,One-Sided PMMA,5,,18,20,concurrent,55.2,28.8,recorded,1200,,,1507,sustained,Grew continuously until the flow was reduced,saffire-6,3,saffire-6,6

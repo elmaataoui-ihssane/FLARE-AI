@@ -12,7 +12,7 @@ except ModuleNotFoundError:
     StateGraph = None
     START = END = None
     LANGGRAPH_AVAILABLE = False
-from app.adapters.member1 import read_groups
+from app.adapters.member1 import read_groups, research_agent
 from app.agents.scientific_analysis import analyze_group
 from app.agents.comparison import compare_groups
 from app.agents.report import write_report
@@ -26,6 +26,7 @@ class FLAREState(TypedDict, total=False):
     analyses: list[AnalysisResult]
     comparison: ComparisonResult | None
     report: str
+    research_context: dict
     trace: list[str]
 
 
@@ -34,13 +35,13 @@ def _trace(state: FLAREState, name: str) -> list[str]:
 
 
 def research_adapter(state: FLAREState) -> dict:
-    # Real Research Agent will select documents and experiments.
-    return {"trace": _trace(state, "research_adapter_demo")}
+    context = research_agent.research(state["question"])
+    return {"research_context": context, "trace": _trace(state, "member1_research_agent")}
 
 
 def data_adapter(state: FLAREState) -> dict:
     groups = read_groups(state["group_ids"])
-    return {"groups": groups, "trace": _trace(state, "data_adapter_demo")}
+    return {"groups": groups, "trace": _trace(state, "member1_csv_data_agent")}
 
 
 def scientific_agent(state: FLAREState) -> dict:
